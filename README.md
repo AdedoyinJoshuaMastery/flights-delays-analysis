@@ -61,8 +61,12 @@ flight-delays-analysis/
 │   ├── top9_route_cancels_bar.png
 │   └── top9_airline_delays_bar.png
 │
+├── results/               # Project findings & outputs
+│   ├── summary.md
+│
 ├── README.md              # Project overview
-└── requirements.txt       # Python dependencies
+├── requirements.txt       # Python dependencies
+└── .gitignore             # Ignore unnecessary files
 
 
 ---
@@ -88,5 +92,6 @@ flight-delays-analysis/
 1.Identified airlines and routes most prone to delays and cancellations.
 
 2.Visualized top 9 routes with cancellations and top 9 airlines with delays.
+
 
 3.Determined wind gusts ≥ 10 mph impact departure delays differently at SEA and PDX.
